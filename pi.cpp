@@ -91,7 +91,7 @@ int main() {
     int angle = 90;
     while(input != "exit") {
         printPie(angle);
-        cout << "Next direction (w/s): ";
+        cout << "Next direction (w/a/s/d): ";
         cin >> input;
         if(input == "s" && angle < 90) {
             angle = min(angle + 10, 90);
